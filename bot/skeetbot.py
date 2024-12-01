@@ -29,7 +29,7 @@ USERNAME_PARAM = get_env_var("SKEETBOT_USERNAME_PARAM", "/skeetbot/SKEETBOT_USER
 PASSWORD_PARAM = get_env_var("SKEETBOT_PASSWORD_PARAM", "/skeetbot/SKEETBOT_PASSWORD")
 ANTHROPIC_API_KEY = get_env_var("ANTHROPIC_API_KEY", "/skeetbot/ANTHROPIC_API_KEY")
 
-RSS_FEED_URL = get_env_var("RSS_FEED_URL", "http://aws.amazon.com/new/feed/")
+RSS_FEED_URL = get_env_var("RSS_FEED_URL", "https://aws.amazon.com/blogs/aws-cloud-financial-management/feed/")
 REGION = "us-west-2"
 
 # Setting these up here so that they're only loaded once per function instantiation
